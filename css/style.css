@@ -3,15 +3,13 @@ body{
     padding: 0;
     background: #F5F5F5;
     font-family: 'Montserrat', sans-serif;
-    color: #fff;
+    color: #06010E;
 }
 .container{
-    width: 90%;
-    max-width: 1140px;
     margin: auto;
-    display: flex;
-    justify-content: center;
+    width: 1050px;
 }
+
 a{
     text-decoration: none;
     color: #fff;
@@ -24,13 +22,18 @@ a{
     line-height: 73px;
     color: #FFFFFF;
 }
+.h2{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
 .header{
     width: 1000px;
-    margin: auto;
     background: #fff;
     box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
     border-radius: 0px 0px 30px 30px;
-    top: 0%;
     position: absolute;
     padding: 15px 30px;
     display: flex;
@@ -68,10 +71,6 @@ a{
     top: 0;
     display: flex;
 }
-.wrapper{
-    width: 1140px;
-    margin: auto;
-}
 .description{
     width: 544px;
     height: 63px;
@@ -96,4 +95,69 @@ a{
 }
 .first-button{
     padding: 15px 30px ; 
+}
+
+.new-Gadgets{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gadgets-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.gedgets-item{
+    width: 202px;
+    margin: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-photo{
+    height: 150px;
+    width: 97px;
+}
+.about-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 202px;
+    margin-top: 30px;
+}
+.card-photo{
+    padding-left: 28%;
+}
+.card-title, .card-param{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 2px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 36px;
+    justify-content: space-between;
+}
+.price{
+    font-weight: 600;
+    font-size: 15px;
+    color: #ED7D03;
+}
+.rating{
+    font-weight: 600;
+    font-size: 10px;
+    color: #b7b7b7;
 }
