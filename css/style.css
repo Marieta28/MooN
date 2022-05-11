@@ -97,13 +97,13 @@ ul, li{
     margin-top: 120px;
 }
 .section1{
-    background: url("/images/background1.jpg") no-repeat center / cover;
+    background: url("../images/background1.jpg") no-repeat center / cover;
     height: 650px;
     top: 0;
     display: flex;
 }
 .section3{
-    background: url("/images//section2-background.jpg") no-repeat center / cover;
+    background: url("../images//section2-background.jpg") no-repeat center / cover;
     margin-top: 60px;
     margin-bottom: 60px;
     padding-top: 60px;
@@ -113,7 +113,7 @@ ul, li{
     margin-top: 60px;
     padding-top: 1px;
     padding-bottom: 60px;
-    background: url("/images/reviewbg.png") no-repeat center / cover;
+    background: url("../images/reviewbg.png") no-repeat center / cover;
 }
 .description{
     width: 544px;
